@@ -12,3 +12,18 @@
 #'   \item{Intentional}{Words recalled after intentional memorizing}
 #' }
 "howell_eysenck_data"
+
+#' US gun murders by state for 2010
+#'
+#' Gun murder data from FBI reports. Also contains the population of each state. Data from dslabs package and Wikipedia.
+#'
+#' @format ## `murders`
+#' An object of class "data.frame".
+#' \describe{
+#'   \item{state}{US state}
+#'   \item{abr}{Abbreviation of US state}
+#'   \item{region}{Geographical US region}
+#'   \item{population}{State population (2010)}
+#'   \item{total}{Number of gun murders in state (2010)}
+#' }
+"murders"
