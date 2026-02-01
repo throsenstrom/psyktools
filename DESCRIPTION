@@ -16,6 +16,10 @@ LazyData: true
 Imports: 
     dplyr,
     effectsize,
+    ggplot2,
+    glmmTMB,
+    gmodels,
+    gridExtra,
     magrittr,
     purrr,
     tidyr
